@@ -19,7 +19,7 @@ const Home = () => {
         <img className={styles.heroImage} src={heroImage} alt="hero" />
         <div className={styles.projectTitle}>
           {/* <h1 className={styles.title}>Memegle</h1> */}
-          <h1 className={styles.title}>2109212125</h1>
+          <h1 className={styles.title}>210921-21:32</h1>
           <h3 className={styles.subtitle}>gif search engine for you</h3>
         </div>
         <Link to="/search">
