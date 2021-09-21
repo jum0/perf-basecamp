@@ -23,7 +23,7 @@ jobs:
         run: yarn build
 
       - name: S3 Deploy
-        run: aws s3 sync ./dist s3://jum0-perf-basecamp
+        run: aws s3 sync ./dist s3://jum0-perf-basecamp/
 
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
