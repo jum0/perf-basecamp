@@ -5,7 +5,7 @@ on:
     branches: cicd-test
 
 jobs:
-  deploy:
+  아무거나 가능:
     runs-on: ubuntu-latest # 인스턴스 OS
     steps:
       - name: Checkout source code
